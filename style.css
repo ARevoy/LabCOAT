@@ -1,2 +1,8 @@
 /* Styles go here */
+.set-white{
+	background-color: white;
+}
 
+.img-background{
+	background-image: '/images/chemical.jpg';
+}
