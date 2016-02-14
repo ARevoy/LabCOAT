@@ -1,8 +1,33 @@
 /* Styles go here */
-.set-white{
-	background-color: white;
+table {
+    border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
 }
 
-.img-background{
-	background-image: '/images/chemical.jpg';
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+	border: 1px solid #E8E8E8;
+	background-color: #E8E8E8;
+    height: 5em;
+	width: 15em;
+	text-align: center;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:hover {background-color: #B8B8B8}
+
+p span{
+	margin-left: .5em;
+}
+
+.block{
+	text-align:center;
+	margin: auto;
+    width: 60%;
+    padding: 10px;
 }

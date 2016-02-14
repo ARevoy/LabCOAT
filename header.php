@@ -4,7 +4,7 @@
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <!-- Scripts -->
   <!-- Jquery CDN 2.2.0 for bootstrap -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -23,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">LabCOAT</a>
+      <a class="navbar-brand" href="index.php">LabCOAT</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,11 +32,17 @@
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search <span class="caret"></span></a>
           <ul class="dropdown-menu" role="tablist">
-            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Chemical Search</a></li>
-            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Room Search</a></li>
+            <li role="presentation"><a href="index.php">Chemical Search</a></li>
+            <li role="presentation"><a href="index.php">Room Search</a></li>
           </ul>
         </li>
-        <li><a href="#">Import</a></li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Import<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="tablist">
+            <li role="presentation"> <a href="input.php">Manual Input</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">CSV Import</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Report <span class="caret"></span></a>
           <ul class="dropdown-menu">
