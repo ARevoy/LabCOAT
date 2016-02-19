@@ -1,4 +1,8 @@
 /* Styles go here */
+
+.jumbotron {
+	background: white;
+}
 table {
     border-collapse: collapse;
 	text-align: center;
